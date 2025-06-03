@@ -20,7 +20,7 @@ Sistema de gestión de cola de prioridad para clientes implementado en JavaScrip
 
 1. Clona el repositorio:
 ```bash
-git clone https://github.com/tu-usuario/sistema-cola-prioridad.git
+git clone https://github.com/SantiagoPrada2005/citas-con-prioridad-colas-ordenadas.git
 ```
 
 2. Navega al directorio del proyecto:
@@ -113,7 +113,7 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 ```text
 MIT License
 
-Copyright (c) 2024 Santiago Prada
+Copyright (c) 2024 Santiago Prada & Brayan Steven Campo
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
