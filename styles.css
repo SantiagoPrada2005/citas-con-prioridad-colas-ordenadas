@@ -80,11 +80,11 @@ h2 {
      
      .formulario ul li {
          border-bottom: none;
-         margin: 20px 0;
+         margin: 15px 0; /* Ajuste de margen */
          padding: 0;
          display: grid;
-         grid-template-columns: 150px 1fr;
-         gap: 20px;
+         grid-template-columns: auto 1fr; /* Label toma su ancho natural, input el resto */
+         gap: 15px; /* Espacio entre label e input */
          align-items: center;
      }
      
@@ -92,15 +92,18 @@ h2 {
          text-align: left;
          font-weight: 400;
          color: #000000;
+         justify-self: start; /* Alinea la etiqueta al inicio de su celda de grid */
      }
      
      .formulario input, .formulario select {
-         width: 100%;
+         width: 100%; /* Asegura que ocupe el ancho disponible en su celda */
          padding: 10px;
          border: 1px solid #000000;
+         border-radius: 5px; /* Añadido para consistencia */
          font-size: 16px;
          background-color: #ffffff;
          font-family: 'Helvetica Neue', Arial, sans-serif;
+         box-sizing: border-box; /* Para incluir padding y borde en el ancho total */
      }
 
 
