@@ -54,10 +54,10 @@ flowchart TD
     ActualizarTimer --> ActualizarTimer
     
     %% Estilos
-    classDef process fill:#f9f,stroke:#333,stroke-width:2px;
-    classDef decision fill:#bbf,stroke:#333,stroke-width:2px;
-    classDef start fill:#9f9,stroke:#333,stroke-width:2px;
-    classDef error fill:#f99,stroke:#333,stroke-width:2px;
+    classDef process fill:#e6f3ff,stroke:#333,stroke-width:2px,color:#000;
+    classDef decision fill:#fff2e6,stroke:#333,stroke-width:2px,color:#000;
+    classDef start fill:#e6ffe6,stroke:#333,stroke-width:2px,color:#000;
+    classDef error fill:#ffe6e6,stroke:#333,stroke-width:2px,color:#000;
     
     class Start,Exit start;
     class ValidarDatos,VerificarCola,ExisteCliente,ConfirmarCancelar decision;
