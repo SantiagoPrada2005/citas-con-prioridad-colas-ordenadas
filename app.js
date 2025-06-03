@@ -88,7 +88,7 @@
 const CLIENT_TYPES = {
     ESPECIAL: 'especial',
     VIP: 'vip',
-    NORMAL: 'normal'
+    GENERAL: 'general'
 };
 
 const PRIORITY_LEVELS = {
@@ -142,8 +142,10 @@ class Cliente {
                 return PRIORITY_LEVELS.HIGH;
             case CLIENT_TYPES.VIP:
                 return PRIORITY_LEVELS.MEDIUM;
-            default:
+            case CLIENT_TYPES.GENERAL: // Cambio aquí
                 return PRIORITY_LEVELS.LOW;
+            default:
+                return PRIORITY_LEVELS.LOW; // O manejar como error
         }
     }
 }
@@ -287,8 +289,10 @@ function getTipoCliente(tipo) {
             return "Persona 3ra Edad / Condición Especial";
         case CLIENT_TYPES.VIP:
             return "Cliente VIP";
-        default:
+        case CLIENT_TYPES.GENERAL: // Cambio aquí
             return "Cliente General";
+        default:
+            return "Cliente General"; // O manejar como error
     }
 }
 
