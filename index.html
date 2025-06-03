@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Citas con prioridad</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Citas con prioridad</h1>
+        
+        <div class="formulario">
+            <h2>Registro de Cliente</h2>
+            <ul>
+                <li>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre">
+                </li>
+                <li>
+                    <label for="tipo">Tipo de Cliente:</label>
+                    <select id="tipo">
+                        <option value="especial">Persona 3ra Edad / Condición Especial</option>
+                        <option value="vip">Cliente VIP</option>
+                        <option value="general">Cliente General</option>
+                    </select>
+                </li>
+            </ul>
+            <div class="botones">
+                <button class="buttonGren" onclick="solicitarTurno()">Solicitar Turno</button>
+                <button id="atenderCliente" onclick="atenderSiguiente()">Atender Cliente</button>
+            </div>
+        </div>
+        
+        <div class="atencion">
+            <h2>Lista de Atención</h2>
+            <ul id="listaClientes"></ul>
+            <p>Tiempo de atención: <span id="timer">00:00</span></p>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>

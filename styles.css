@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    }
+    .formulario, .atencion {
+        margin: 20px auto;
+        padding: 15px;
+        width: 50%;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    #atenderCliente {
+        background-color: #b8b122;
+        color: white;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+    }
+
+    #atenderCliente:hover {
+        background-color: #9b941c;
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    li{
+        padding: 8px;
+        margin: 5px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+        align-items: baseline;
+        flex-direction: row;
+    }
+
+
+    button {
+        background-color: #28a745;
+        color: white;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+    }
+
+    li button {
+        background-color: #dc3545;
+        color : white;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+    }
+
+    li button:hover {
+        background-color: #c82333;
+    }
+
+    button:hover {
+        background-color: #218838;
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+    li {
+        padding: 8px;
+        margin: 5px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+}
